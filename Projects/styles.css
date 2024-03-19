@@ -1,0 +1,43 @@
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.category {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #333;
+}
+
+.show,
+.movie {
+    margin-bottom: 1rem;
+}
+
+.show img,
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}

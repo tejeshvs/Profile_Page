@@ -1,0 +1,195 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color:rgb(250, 241, 229);
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5vmin;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 10px 58px -20px rgb(247, 191, 118);
+}
+form{
+    width:80%;
+    height:90%;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 2vmin;
+    background: transparent;
+    border: 2px black solid;
+    margin:15px;
+    font-size: 1.25rem;
+    outline: none;
+}
+
+.heading{
+    margin-top: 2vmin;
+    width:100%;
+    color: rgb(255, 201, 129);
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:10px;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
+}
+.password{
+    width: 100%;
+}
+#pass{
+    margin-left: 8vmin;
+    text-align: left;
+    font-size:  16px ;
+}
+#pass a{
+    text-decoration: none;
+    color:rgb(255, 201, 129) ;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
+}
+.btn{
+    padding: 1.5vmin 3vmin;
+    background-color: rgb(255, 201, 129);
+    border: none;
+    border-radius: 0.5vmin;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(249, 184, 99);
+    scale: 110%;
+}
+.btn2{
+    background-color: #eaeaea;
+    color: black ;
+}
+.btn1{
+    background-color: rgb(249, 184, 99);
+    color: black;
+}
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00224D;  /* Updated background color using the specified color code */
+}
+.container{
+    height: 70vh;
+    width: 40vw;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5vmin;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 10px 58px -20px #5D0E41;  /* Updated box shadow color using the specified color code */
+}
+form{
+    width:80%;
+    height:90%;
+}
+.input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 2vmin;
+    background: transparent;
+    border: 2px black solid;
+    margin:15px;
+    font-size: 1.25rem;
+    outline: none;
+}
+
+.heading{
+    margin-top: 2vmin;
+    width:100%;
+    color: #A0153E;  /* Updated text color using the specified color code */
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom:10px;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vmin;
+}
+.password{
+    width: 100%;
+}
+#pass{
+    margin-left: 8vmin;
+    text-align: left;
+    font-size:  16px ;
+}
+#pass a{
+    text-decoration: none;
+    color: #A0153E;  /* Updated link color using the specified color code */
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3vmin;
+}
+.btn{
+    padding: 1.5vmin 3vmin;
+    background-color: #FF204E;  /* Updated button background color using the specified color code */
+    border: none;
+    border-radius: 0.5vmin;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #FFCCCB;  /* Updated button hover background color using the specified color code */
+    scale: 110%;
+}
+.btn2{
+    background-color: #eaeaea;
+    color: black ;
+}
+.btn1{
+    background-color: #FFCCCB;  /* Updated button color using the specified color code */
+    color: black;
+}
+
+
